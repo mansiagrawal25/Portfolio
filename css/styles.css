@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
 
 /*
 =============== 
@@ -13,18 +13,18 @@ Variables
 
 :root {
   /* dark shades of primary color*/
-  --clr-primary-1: hsl(43, 86%, 17%);
+  --clr-primary-1: #3c1721;
   --clr-primary-2: hsl(43, 77%, 27%);
   --clr-primary-3: hsl(43, 72%, 37%);
   --clr-primary-4: hsl(42, 63%, 48%);
   /* primary/main color */
-  --clr-primary-5: hsl(42, 78%, 60%);
+  --clr-primary-5: #c84f6f;
   /* lighter shades of primary color */
   --clr-primary-6: hsl(43, 89%, 70%);
-  --clr-primary-7: hsl(43, 90%, 76%);
+  --clr-primary-7: #e9b8c5;
   --clr-primary-8: hsl(45, 86%, 81%);
-  --clr-primary-9: hsl(45, 90%, 88%);
-  --clr-primary-10: hsl(45, 100%, 96%);
+  --clr-primary-9: #e3a7b7;
+  --clr-primary-10: #f9edf0;
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
@@ -38,8 +38,8 @@ Variables
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
-  --ff-primary: "Roboto", sans-serif;
-  --ff-secondary: "Open Sans", sans-serif;
+  --ff-primary: 'Roboto', sans-serif;
+  --ff-secondary: 'Open Sans', sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -376,7 +376,7 @@ Hero
 
   .hero-img::before,
   .about-img::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     height: 100%;
@@ -530,7 +530,7 @@ Projects
   opacity: 0.1;
 }
 .project::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -566,8 +566,8 @@ Projects
     grid-template-rows: 200px 200px;
     gap: 1rem;
     grid-template-areas:
-      "a b b"
-      "a c d";
+      'a b b'
+      'a c d';
   }
   .project-img {
     height: 100%;
@@ -610,7 +610,7 @@ Connect
   z-index: -2;
 }
 .connect::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
